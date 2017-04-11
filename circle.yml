@@ -1,7 +1,7 @@
 machine:
   environment:
     IMPORT_PATH: "github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
-    DOCKER_HUB_URI: https://registry.hub.docker.com/u/asos/asos-letsencrypt/trigger/a4b65584-a6ec-4cf7-90d4-dc89dfc5ca97/
+    DOCKER_HUB_URI: ${DOCKER_HUB_URI}/${DOCKER_HUB_TOKEN}/
 
 general:
   build_dir: ../.go_workspace/src/github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
@@ -27,9 +27,9 @@ dependencies:
 
 test:
   pre:
-    - make vet
+    - go vet ./...
   override:
-    - make test
+    - godep go test ./...
   post:
     - make ci-dist
 
