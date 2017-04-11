@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/asosgaming/rancher-letsencrypt",
+	"ImportPath": "github.com/asosgaming/asos-letsencrypt",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Deps": [
