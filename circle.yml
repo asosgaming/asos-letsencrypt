@@ -11,6 +11,7 @@ general:
 
 dependencies:
   pre:
+    - go get github.com/tools/godep
     - go version
     - rm -rf ~/.go_workspace/src/github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
     - mkdir -p ~/.go_workspace/src/github.com/$CIRCLE_PROJECT_USERNAME/
