@@ -4,7 +4,7 @@
 
 .PHONY: build deps test release clean push image ci-compile build-dir ci-dist dist-dir ci-release version help
 
-PROJECT := rancher-letsencrypt
+PROJECT := asos-letsencrypt
 PLATFORMS := linux
 ARCH := amd64
 DOCKER_IMAGE := asos/$(PROJECT)
