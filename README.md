@@ -3,7 +3,7 @@
 # Let's Encrypt Certificate Manager for Rancher
 
 [![Latest Version](https://img.shields.io/github/release/asosgaming/asos-letsencrypt.svg?maxAge=8600)][release]
-[![Circle CI](https://circleci.com/gh/asosgaming/asos-letsencrypt.svg?style=shield&circle-token=cd06c9a78ae3ef7b6c1387067c36360f62d97b7a)][circleci]
+[![CircleCI](https://circleci.com/gh/asosgaming/asos-letsencrypt.svg?style=svg&circle-token=58f09d94911129f4e4f0f02eedb69bb7101fdb89)](https://circleci.com/gh/asosgaming/asos-letsencrypt)
 [![Docker Pulls](https://img.shields.io/docker/pulls/asos/asos-letsencrypt.svg?maxAge=8600)][hub]
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg?style=plastic)](https://raw.githubusercontent.com/asosgaming/asos-letsencrypt/master/LICENSE)
 
