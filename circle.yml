@@ -36,7 +36,7 @@ test:
 deployment:
   release:
     tag: /v.*/
-    owner: asosgaming
+    owner: reesey275
     commands:
       - make ci-release
       - curl --data "docker_tag=latest" -X POST ${DOCKER_HUB_URI}/${DOCKER_HUB_TOKEN}/
