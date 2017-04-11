@@ -5,7 +5,7 @@
 [![Latest Version](https://img.shields.io/github/release/asosgaming/asos-letsencrypt.svg?maxAge=8600)][release]
 [![Circle CI](https://circleci.com/gh/asosgaming/asos-letsencrypt.svg?style=shield&circle-token=cd06c9a78ae3ef7b6c1387067c36360f62d97b7a)][circleci]
 [![Docker Pulls](https://img.shields.io/docker/pulls/asos/asos-letsencrypt.svg?maxAge=8600)][hub]
-[![License](https://img.shields.io/github/license/asos/asos-letsencrypt.svg?maxAge=8600)]()
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg?style=plastic)](https://raw.githubusercontent.com/asosgaming/asos-letsencrypt/master/LICENSE)
 
 [release]: https://github.com/asosgaming/asos-letsencrypt/releases
 [circleci]: https://circleci.com/gh/asosgaming/asos-letsencrypt
