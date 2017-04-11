@@ -1,15 +1,15 @@
-![Rancher + Let's Encrypt = Awesome Sauce](https://raw.githubusercontent.com/asosgaming/rancher-letsencrypt/master/hero.png)
+![Rancher + Let's Encrypt = Awesome Sauce](https://raw.githubusercontent.com/asosgaming/asos-letsencrypt/master/hero.png)
 
 # Let's Encrypt Certificate Manager for Rancher
 
-[![Latest Version](https://img.shields.io/github/release/asosgaming/rancher-letsencrypt.svg?maxAge=8600)][release]
-[![Circle CI](https://circleci.com/gh/asosgaming/rancher-letsencrypt.svg?style=shield&circle-token=cd06c9a78ae3ef7b6c1387067c36360f62d97b7a)][circleci]
-[![Docker Pulls](https://img.shields.io/docker/pulls/asos/rancher-letsencrypt.svg?maxAge=8600)][hub]
-[![License](https://img.shields.io/github/license/asos/rancher-letsencrypt.svg?maxAge=8600)]()
+[![Latest Version](https://img.shields.io/github/release/asosgaming/asos-letsencrypt.svg?maxAge=8600)][release]
+[![Circle CI](https://circleci.com/gh/asosgaming/asos-letsencrypt.svg?style=shield&circle-token=cd06c9a78ae3ef7b6c1387067c36360f62d97b7a)][circleci]
+[![Docker Pulls](https://img.shields.io/docker/pulls/asos/asos-letsencrypt.svg?maxAge=8600)][hub]
+[![License](https://img.shields.io/github/license/asos/asos-letsencrypt.svg?maxAge=8600)]()
 
-[release]: https://github.com/asosgaming/rancher-letsencrypt/releases
-[circleci]: https://circleci.com/gh/asosgaming/rancher-letsencrypt
-[hub]: https://hub.docker.com/r/asos/rancher-letsencrypt/
+[release]: https://github.com/asosgaming/asos-letsencrypt/releases
+[circleci]: https://circleci.com/gh/asosgaming/asos-letsencrypt
+[hub]: https://hub.docker.com/r/asos/asos-letsencrypt/
 
 A [Rancher](http://rancher.com/rancher/) service that obtains free SSL/TLS certificates from the [Let's Encrypt CA](https://letsencrypt.org/), adds them to Rancher's certificate store and manages renewal and propagation of updated certificates to load balancers.
 
@@ -32,7 +32,7 @@ A [Rancher](http://rancher.com/rancher/) service that obtains free SSL/TLS certi
 
 ### How to use
 
-This application is distributed via the [ASoS Gaming Community Catalog](https://github.com/asosgaming/community-catalog).
+This application is distributed via the [ASoS Gaming Community Catalog](https://github.com/asosgaming/asos-catalog).
 
 Enable the Community Catalog under `Admin` => `Settings` in the Rancher UI.
 Then locate the `Let's Encrypt` template in the Catalog section of the UI and follow the instructions.
