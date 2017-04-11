@@ -61,7 +61,7 @@ Replace `<HOSTED_ZONE_ID>` with the ID of the hosted zone that encloses the doma
 
 ```json
 {
-    "Version": "2012-10-17",
+    "Version": "2017-04-11",
     "Statement": [
         {
             "Effect": "Allow",
